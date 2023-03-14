@@ -4,7 +4,6 @@ html,body{
 }
 
 .Logo{
-    border: 1px black solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -15,6 +14,31 @@ svg{
     max-width: 30%;
 }
 
+.Logo svg:first-child{
+	padding-left: 15%;
+}
+
+.Logo svg:last-child{
+	padding-right: 15%;
+	margin-top: 0.5%;
+}
+
+.Logo svg:nth-child(even){
+	margin: 1% 0 1% 0;
+}
+
+@media screen and (max-width: 620px){
+	.Logo svg:first-child{
+		width: 0;
+		padding-left:0;
+	}
+	
+	.Logo svg:last-child{
+		width: 0;
+		padding-right: 0;
+	}
+}
+
 body {
 	background-color: #ece8e5;
 }
@@ -22,12 +46,12 @@ body {
 nav {
 	height: 40px;
 	width: 100%;
-	background: #455868;
+	background: #eebde9;
 	font-size: 11pt;
 	font-family: 'PT Sans', Arial, sans-serif;
 	font-weight: bold;
 	position: relative;
-	border-bottom: 2px solid #283744;
+	border-bottom: 2px solid #f38de9;
 }
 nav ul {
 	padding: 0;
@@ -64,7 +88,7 @@ nav a {
 }
 
 nav li a {
-	border-right: 1px solid #576979;
+	border-right: 1px solid #f38de9;
 	box-sizing:border-box;
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -74,7 +98,7 @@ nav li:last-child a {
 }
 
 nav a:hover, nav a:active {
-	background-color: #8c99a4;
+	background-color: #f38de9;
 }
 
 nav a#pull {
@@ -96,8 +120,8 @@ nav a#pull {
   		position: relative;
   	}
   	nav li a {
-		border-bottom: 1px solid #576979;
-		border-right: 1px solid #576979;
+		border-bottom: 1px solid #f38de9;
+		border-right: 1px solid #f38de9;
 	}
   	nav a {
 	  	text-align: left;
@@ -108,7 +132,7 @@ nav a#pull {
 
 @media only screen and (max-width : 480px) {
 	nav {
-		border-bottom: 0;
+		border-bottom: 0; 
 	}
 	nav ul {
 		display: none;
@@ -116,7 +140,7 @@ nav a#pull {
 	}
 	nav a#pull {
 		display: block;
-		background-color: #283744;
+		background-color: #ee52de;
 		width: 100%;
 		position: relative;
 		text-align: center;
@@ -138,10 +162,16 @@ nav a#pull {
 		width: 100%;
 	}
 	nav li a {
-		border-bottom: 1px solid #576979;
+		border-bottom: 1px solid #f38de9;
 		text-align: center;
 		padding-left: -1em;
 
+	}
+
+	.Logo{
+		width: 0;
+		margin: 0;
+		height: 0;
 	}
 }
 
@@ -226,6 +256,107 @@ footer li{
 
 }
 
+.emote img{
+	width: 100%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.text {
+	font-size: 6vw;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text2 {
+	font-size: 6vw;
+	margin-top: 3vw;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textour1{
+	font-size: 4vw;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textour2{
+	text-align: justify;
+	font-size: 2vw;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textour3{
+	text-align: justify;
+	font-size: 2vw;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cection1{
+	display: inline-block;
+	vertical-align:top;
+	padding-top: 5em;
+	margin-left: 3em;
+	max-width: 45%;
+	border: 1px black solid;
+
+}
+
+.cection1 h2{
+	margin: 10% 0 0 8%;
+	font-size: 1.9vw;
+}
+
+.cection1 p{
+	margin-left: 3.7em;
+	margin-top: 0;
+	font-size: 1vw;
+}
+
+.cection2{
+	display: inline-block;
+	margin-left: 55px;
+	max-width: 45%;
+	border: 1px black solid;
+}
+
+.cection2 img{
+	max-width: 100%;
+}
+
+.sieta{
+	text-align: center;
+	font-size: 1.5vw;
+	margin: 2em 1.6em 2em 1.6em;
+}
+
+.buton a{
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.buton{
+	display: inline-block;
+	justify-content: center;
+	padding: 1em;
+}
 
 
 
