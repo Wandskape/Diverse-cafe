@@ -13,6 +13,8 @@ else {
     xmlDoc.async = "false";
     xmlDoc.load("data.xml");
 }
+
+
 // Получение списка элементов dish из XML документа
 const dishes = xmlDoc.getElementsByTagName("dish");
 var str = "";

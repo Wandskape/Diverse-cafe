@@ -51,31 +51,33 @@ function initMap() {
 
 /* -------------------menu--------------------- */
 
-// Загрузка XML документа
-const xml = new XMLHttpRequest();
-xml.open("GET", "data.xml", false);
-xml.send();
-const xmlDoc = xml.responseXML;
+// // Загрузка XML документа
+// const xml = new XMLHttpRequest();
+// xml.open("GET", "data.xml", false);
+// xml.send();
+// const xmlDoc = xml.responseXML;
 
-// Получение списка элементов dish из XML документа
-const dishes = xmlDoc.getElementsByTagName("dish");
 
-// Перебор элементов dish и заполнение информацией соответствующих элементов HTML
-for (let i = 0; i < dishes.length; i++) {
-  const dish = dishes[i];
-  const imgSrc = dish.getElementsByTagName("img")[0].getAttribute("src");
-  const imgAlt = dish.getElementsByTagName("img")[0].getAttribute("alt");
-  const title = dish.parentNode.querySelector("h3");
-  const description = dish.parentNode.querySelector("p");
 
-  if (title) {
-    title.textContent = dish.getElementsByTagName("name")[0].textContent;
-  }
+// // Получение списка элементов dish из XML документа
+// const dishes = xmlDoc.getElementsByTagName("dish");
 
-  if (description) {
-    description.textContent = dish.getElementsByTagName("description")[0].textContent;
-  }
-}
+// // Перебор элементов dish и заполнение информацией соответствующих элементов HTML
+// for (let i = 0; i < dishes.length; i++) {
+//   const dish = dishes[i];
+//   const imgSrc = dish.getElementsByTagName("img")[0].getAttribute("src");
+//   const imgAlt = dish.getElementsByTagName("img")[0].getAttribute("alt");
+//   const title = dish.parentNode.querySelector("h3");
+//   const description = dish.parentNode.querySelector("p");
+
+//   if (title) {
+//     title.textContent = dish.getElementsByTagName("name")[0].textContent;
+//   }
+
+//   if (description) {
+//     description.textContent = dish.getElementsByTagName("description")[0].textContent;
+//   }
+// }
 
 
 
