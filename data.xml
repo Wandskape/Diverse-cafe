@@ -1,0 +1,22 @@
+<menu>
+  <dish>
+    <img src="images/menu/test.jpg" alt="Dish name 1" />
+    <name>Dish name 1</name>
+    <description>Description of the dish goes here</description>
+  </dish>
+  <dish>
+    <img src="images/menu/test.jpg" alt="Dish name 2" />
+    <name>Dish name 2</name>
+    <description>Description of the dish goes here</description>
+  </dish>
+  <dish>
+    <img src="images/menu/test.jpg" alt="Dish name 3" />
+    <name>Dish name 3</name>
+    <description>Description of the dish goes here</description>
+  </dish>
+  <dish>
+    <img src="images/menu/test.jpg" alt="Dish name 3" />
+    <name>Dish name 3</name>
+    <description>Description of the dish goes here</description>
+  </dish>
+</menu>
