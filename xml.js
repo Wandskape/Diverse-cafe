@@ -1,7 +1,7 @@
 var xmlDoc;
 if (typeof window.DOMParser != "undefined") {
     xmlhttp = new XMLHttpRequest();
-    xmlhttp.open("GET", "catalog.xml", false);
+    xmlhttp.open("GET", "data.xml", false);
     if (xmlhttp.overrideMimeType) {
         xmlhttp.overrideMimeType('text/xml');
     }
@@ -11,7 +11,7 @@ if (typeof window.DOMParser != "undefined") {
 else {
     xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
     xmlDoc.async = "false";
-    xmlDoc.load("catalog.xml");
+    xmlDoc.load("data.xml");
 }
 // Получение списка элементов dish из XML документа
 const dishes = xmlDoc.getElementsByTagName("dish");
