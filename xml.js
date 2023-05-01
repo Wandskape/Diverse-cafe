@@ -1,8 +1,18 @@
-const xml = new XMLHttpRequest();
-xml.open("GET", "data.xml", false);
-xml.send();
-const xmlDoc = xml.responseXML;
-
+var xmlDoc;
+if (typeof window.DOMParser != "undefined") {
+    xmlhttp = new XMLHttpRequest();
+    xmlhttp.open("GET", "catalog.xml", false);
+    if (xmlhttp.overrideMimeType) {
+        xmlhttp.overrideMimeType('text/xml');
+    }
+    xmlhttp.send();
+    xmlDoc = xmlhttp.responseXML;
+    }
+else {
+    xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+    xmlDoc.async = "false";
+    xmlDoc.load("catalog.xml");
+}
 // Получение списка элементов dish из XML документа
 const dishes = xmlDoc.getElementsByTagName("dish");
 var str = "";
