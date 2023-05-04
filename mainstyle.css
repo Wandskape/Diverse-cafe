@@ -555,7 +555,7 @@ footer li{
 }
   
 .buton:hover {
-	background-color: #c0613b;
+	background-color: #FF8C00;
 	transform: scale(1.3); /* при наведении увеличиваем размер кнопки в 1.5 раза */
 }
   
