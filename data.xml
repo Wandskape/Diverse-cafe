@@ -1,22 +1,86 @@
 <menu>
   <dish>
-    <img src="images/menu/test.jpg" alt="Dish name 1" />
-    <name>Dish name 1</name>
-    <description>Description of the dish goes here</description>
+    <img src="images/menu/latte.jpeg" alt="Dish name 1" />
+    <name>Лате</name>
+    <description>Ароматное удовольствие по приятной цене 3.00.</description>
   </dish>
   <dish>
-    <img src="images/menu/test.jpg" alt="Dish name 2" />
-    <name>Dish name 2</name>
-    <description>Description of the dish goes here</description>
+    <img src="images/menu/kapuchino.jpg" alt="Dish name 2" />
+    <name>Капучино</name>
+    <description>Идеальное сочетание молока и эспрессо по приятной цене 3.00.</description>
   </dish>
   <dish>
-    <img src="images/menu/test.jpg" alt="Dish name 3" />
-    <name>Dish name 3</name>
-    <description>Description of the dish goes here</description>
+    <img src="images/menu/espresso.jpg" alt="Dish name 3" />
+    <name>Эспрессо</name>
+    <description>Мощный бодрящий заряд, порадует ваc всего за 2.00.</description>
   </dish>
   <dish>
-    <img src="images/menu/test.jpg" alt="Dish name 3" />
-    <name>Dish name 3</name>
-    <description>Description of the dish goes here</description>
+    <img src="images/menu/raf.png" alt="Dish name 3" />
+    <name>Раф</name>
+    <description>Сладкая гармония ванили и кофе по цене всего 4.00.</description>
   </dish>
+
+  <Сdish>
+    <img src="images/menu/fresh.jpg" alt="Dish name 1" />
+    <name>Фруктовый фреш</name>
+    <description>Живой заряд, разливается в каждый глоток, оживляя вас с утра до вечера. Цена: 5.25.</description>
+  </Сdish>
+  <Сdish>
+    <img src="images/menu/limonade.jpg" alt="Dish name 2" />
+    <name>Лимонад</name>
+    <description>Летняя прохлада с ярким вкусом лимона, приятно порадует ваш кошелек всего за 2.50.</description>
+  </Сdish>
+  <Сdish>
+    <img src="images/menu/mors.jpg" alt="Dish name 3" />
+    <name>Морс</name>
+    <description>Ягодная натуральность для освежения, предлагается по цене всего 3.00.</description>
+  </Сdish>
+  <Сdish>
+    <img src="images/menu/coldTea.jpg" alt="Dish name 3" />
+    <name>Холодный чай</name>
+    <description>Идеальное сочетание чая и свежести, доступный по приятной цене 2.75.</description>
+  </Сdish>
+
+  <Sdish>
+    <img src="images/menu/grechka.jpg" alt="Dish name 1" />
+    <name>Греческий салат</name>
+    <description>Свежий аромат средиземноморья, доступный по цене всего 5.50.</description>
+  </Sdish>
+  <Sdish>
+    <img src="images/menu/cezar.jpg" alt="Dish name 2" />
+    <name>Цезарь салат</name>
+    <description>Классическая смесь текстур и вкусов, предлагается по специальной цене 6.00.</description>
+  </Sdish>
+  <Sdish>
+    <img src="images/menu/kapysta.png" alt="Dish name 3" />
+    <name>Капустный салат</name>
+    <description>свежесть овощей с легкой ноткой хруста, доступный по цене всего 4.00.</description>
+  </Sdish>
+  <Sdish>
+    <img src="images/menu/mix.jpg" alt="Dish name 3" />
+    <name>Микс салат</name>
+    <description>Гармония сезонных овощей и фруктов, предлагается по приятной цене всего 5.75.</description>
+  </Sdish>
+
+  <DEdish>
+    <img src="images/menu/muss.jpg" alt="Dish name 1" />
+    <name>Шоколадный мусс</name>
+    <description>Нежно-воздушное наслаждение шоколадом, доступное по цене всего 6.50.</description>
+  </DEdish>
+  <DEdish>
+    <img src="images/menu/teramisu.jpg" alt="Dish name 2" />
+    <name>Чизкейк</name>
+    <description>Идеальное сочетание сыра и сладости, предлагается по специальной цене 7.00.</description>
+  </DEdish>
+  <DEdish>
+    <img src="images/menu/cheezCake.jpg" alt="Dish name 3" />
+    <name>Классический тирамису</name>
+    <description>Итальянская сладкая классика с ягодами, доступная по цене всего 8.50.</description>
+  </DEdish>
+  <DEdish>
+    <img src="images/menu/amerikanPie.jpg" alt="Dish name 3" />
+    <name>Фруктовый пай</name>
+    <description>Свежие фрукты в сладком обрамлении, предлагается по приятной цене 5.00.</description>
+  </DEdish>
+
 </menu>

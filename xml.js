@@ -30,3 +30,51 @@ for (let i = 0; i < dishes.length; i++) {
   description +"</p></div>";
 }
 	document.getElementById("coffee").innerHTML += str;
+
+// Получение списка элементов dish из XML документа
+const Сdishes = xmlDoc.getElementsByTagName("Сdish");
+var str = "";
+// Перебор элементов dish и заполнение информацией соответствующих элементов HTML
+for (let i = 0; i < Сdishes.length; i++) {
+  const dish = Сdishes[i];
+  const imgSrc = dish.getElementsByTagName("img")[0].getAttribute("src");
+  const imgAlt = dish.getElementsByTagName("img")[0].getAttribute("alt");
+  const name = dish.getElementsByTagName("name")[0].textContent;
+  const description = dish.getElementsByTagName("description")[0].textContent;
+  str += "<div class=\"dish-card\"><img src=\"" + imgSrc + "\" alt=\"" + imgAlt + "\"><h3>" +
+  name +"</h3><p>" + 
+  description +"</p></div>";
+}
+	document.getElementById("cold-drinks").innerHTML += str;
+
+// Получение списка элементов dish из XML документа
+const Sdishes = xmlDoc.getElementsByTagName("Sdish");
+var str = "";
+// Перебор элементов dish и заполнение информацией соответствующих элементов HTML
+for (let i = 0; i < Sdishes.length; i++) {
+  const dish = Sdishes[i];
+  const imgSrc = dish.getElementsByTagName("img")[0].getAttribute("src");
+  const imgAlt = dish.getElementsByTagName("img")[0].getAttribute("alt");
+  const name = dish.getElementsByTagName("name")[0].textContent;
+  const description = dish.getElementsByTagName("description")[0].textContent;
+  str += "<div class=\"dish-card\"><img src=\"" + imgSrc + "\" alt=\"" + imgAlt + "\"><h3>" +
+  name +"</h3><p>" + 
+  description +"</p></div>";
+}
+	document.getElementById("salads").innerHTML += str;
+
+// Получение списка элементов dish из XML документа
+const DEdishes = xmlDoc.getElementsByTagName("DEdish");
+var str = "";
+// Перебор элементов dish и заполнение информацией соответствующих элементов HTML
+for (let i = 0; i < DEdishes.length; i++) {
+  const dish = DEdishes[i];
+  const imgSrc = dish.getElementsByTagName("img")[0].getAttribute("src");
+  const imgAlt = dish.getElementsByTagName("img")[0].getAttribute("alt");
+  const name = dish.getElementsByTagName("name")[0].textContent;
+  const description = dish.getElementsByTagName("description")[0].textContent;
+  str += "<div class=\"dish-card\"><img src=\"" + imgSrc + "\" alt=\"" + imgAlt + "\"><h3>" +
+  name +"</h3><p>" + 
+  description +"</p></div>";
+}
+	document.getElementById("desserts").innerHTML += str;
